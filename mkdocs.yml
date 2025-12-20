@@ -1,12 +1,12 @@
 site_name: UrbanMapper
-repo_name: VIDA-NYU/UrbanMapper
+repo_name: simonprovost/UrbanMapper-Community
 
-repo_url: https://github.com/VIDA-NYU/UrbanMapper
+repo_url: https://github.com/simonprovost/UrbanMapper-Community
 edit_uri: blob/main/docs/
 site_url: https://vida-nyu.github.io/UrbanMapper/
 
-site_author: New York University
-copyright: Maintained by Simon Provost, © New York University 2025-present
+site_author: Simon Provost
+copyright: Maintained by Simon Provost, © Simon Provost 2025-present
 site_description: >
   🗺️ Spatial Join & Enrich any urban layer given any external urban dataset of interest, streamline your urban analysis 
   with Scikit-Learn-Like pipelines, and share your insights with the urban research community!
@@ -144,15 +144,9 @@ plugins:
 extra:
   social:
       - icon: fontawesome/brands/github-alt
-        link: https://github.com/VIDA-NYU
+        link: https://github.com/UrbanMapper-Community
       - icon: fontawesome/brands/github
         link: https://github.com/simonprovost
-      - icon: fontawesome/brands/twitter
-        link: https://x.com/nyuvida
-      - icon: fontawesome/brands/linkedin
-        link: https://www.linkedin.com/school/nyutandonschoolofengineering/
-      - icon: fontawesome/solid/database
-        link: https://huggingface.co/datasets/oscur
 
 extra_css:
   - private/custom_css/extra.css
@@ -225,5 +219,5 @@ nav:
         - Interactive Table VIS: api/interactive_table_vis.md
         - JupyterGIS Mixins: api/jupyter_gis.md
   - Contributing: ./CONTRIBUTING_DEV.md
-  - Releases: https://github.com/VIDA-NYU/UrbanMapper/releases
+  - Releases: https://github.com/simonprovost/UrbanMapper-Community/releases
   - "Branding & UX": ./BRANDING.md

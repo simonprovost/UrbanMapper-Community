@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>UrbanMapper</h1>
+   <h1>UrbanMapper Community</h1>
    <h3>Enrich Urban Layers Given Urban Datasets</h3>
    <p><i>with ease-of-use API and Sklearn-alike Shareable & Reproducible Urban Pipeline</i></p>
    <p>
@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/static/v1?label=RUFF&message=compliant&color=9C27B0&style=for-the-badge&logo=RUFF&logoColor=white" alt="RUFF compliant">
       <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
       <img src="https://img.shields.io/static/v1?label=Python&message=3.10%2B&color=3776AB&style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
-      <img src="https://img.shields.io/github/actions/workflow/status/VIDA-NYU/UrbanMapper/compile.yaml?style=for-the-badge&label=Compilation&logo=githubactions&logoColor=white" alt="Compilation Status">
+      <img src="https://img.shields.io/github/actions/workflow/status/simonprovost/UrbanMapper-Community/compile.yaml?style=for-the-badge&label=Compilation&logo=githubactions&logoColor=white" alt="Compilation Status">
    </p>
 </div>
 
@@ -21,12 +21,10 @@
 ___
 
 > [!IMPORTANT]
+> 🫡 `UrbanMapper Community` is a community-led continuation of the original `UrbanMapper` project from New York University.
 > - 📹 `UrbanMapper` got its first Model Context Protocol (MCP) 👉https://www.youtube.com/watch?v=6gLkmKevj8Y 👈
-> - 🤝 We support [JupyterGIS](https://github.com/geojupyter/jupytergis) following one of your `Urban Pipeline`'s
-    analysis for collaborative in real-time exploration on Jupyter 🏂 Shout-out
-    to [@mfisher87](https://github.com/mfisher87) and `JGIS` team for their tremendous help.
 
-## UrbanMapper, In a Nutshell
+## UrbanMapper & Urban Mapper Community, In a Nutshell
 
 `UrbanMapper` lets you link your data to spatial features—matching, for example, traffic events to streets—to enrich
 each location with meaningful, location-based information. Formally, it defines a spatial enrichment
@@ -42,29 +40,24 @@ a [Scikit-Learn](https://scikit-learn.org/stable/)–style pipeline called the `
 As your data evolves or team members want new analyses, you can share and update the `Urban Pipeline` like a trained
 model, enabling others to run or extend the same workflow without rewriting code.
 
-There are more to `UrbanMapper`, explore!
+**UrbanMapper Community**: please jump to the #Acknowledgments section below to learn more about the history of the project.
 
 ---
 
 ## Installation
 
-Install `UrbanMapper` via ``pip`` (works in any environment):
+Install `UrbanMapper-Community`:
 
  ```bash
- pip install urban-mapper
+ uv add urban-mapper-community
+ # pip install works too!
  ```
 
 Then launch Jupyter Lab to explore `UrbanMapper`:
 
 ```bash
-jupyter lab
+uv run jupyter lab
 ```
-
-> [!TIP]
-> We recommend installing `UrbanMapper` in a virtual environment to keep things tidy and avoid dependency conflicts. You
-> can find detailed instructions—including how to install within a virtual environment
-> using [uv](https://docs.astral.sh/uv/getting-started/installation/), [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
-> or from source in the [UrbanMapper Installation Guide](https://urbanmapper.readthedocs.io/en/latest/getting-started/installation/).
 
 ---
 
@@ -84,6 +77,14 @@ or running yourself the notebooks through the `examples/` directory.
 `UrbanMapper` is released under the [MIT Licence](./LICENCE).
 
 ## Acknowledgments
-This work is supported by the NSF and is part of the [OSCUR initiative]([url](https://oscur.org/)).
 
-<img src="docs/public/resources/oscur_logo_gray.png" width="200px">
+We are grateful to **New York University** for supporting the early design and development of `UrbanMapper`, and for
+providing an encouraging research environment—especially through the **OSCUR** funding support (https://oscur.org).
+
+**UrbanMapper Community** builds on those initial foundations and continues the work as a community-led effort, with a
+focus on transparent collaboration, reproducible workflows, and open participation as well as public roadmap.
+
+This was unfortunately hardly the case through the first `UM` repository, questions were hardly answered, issues left,
+and contributions difficult to make through.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/New_York_University_Logo.png" width="200px" alt="New York University logo">

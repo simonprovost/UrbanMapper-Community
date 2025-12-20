@@ -37,7 +37,7 @@ class Tile2NetSidewalks(UrbanLayerBase):
         Sidewalk data must be pre-extracted using `Tile2Net` and loaded from files. Direct
         loading from place names or other spatial queries is not supported.
 
-        See further here: [Tile2Net VIDA NYU](https://github.com/VIDA-NYU/tile2net) && [This Feature Request](https://github.com/VIDA-NYU/UrbanMapper/issues/17)
+        See further here: [Tile2Net](https://github.com/VIDA-NYU/tile2net) && [This Feature Request](https://github.com/simonprovost/UrbanMapper-Community/issues/17)
     """
 
     def from_file(self, file_path: str | Path, **kwargs) -> None:
@@ -84,7 +84,7 @@ class Tile2NetSidewalks(UrbanLayerBase):
             from files produced by `Tile2Net`. Future versions may support loading from
             geographic place names or other spatial queries.
 
-            See further in [this feature request](https://github.com/VIDA-NYU/UrbanMapper/issues/17)
+            See further in [this feature request](https://github.com/simonprovost/UrbanMapper-Community/issues/17)
         """
         raise NotImplementedError(
             "Loading sidewalks from place is not yet implemented."

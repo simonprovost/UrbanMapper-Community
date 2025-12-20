@@ -13,7 +13,7 @@
 
     **Use at your own risk**, and please report anything that seems `incorrect` / `outdated` you find.
 
-    [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+    [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
 ## ::: urban_mapper.pipeline.UrbanPipeline
     options:

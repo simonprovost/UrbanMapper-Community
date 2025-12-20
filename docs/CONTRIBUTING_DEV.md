@@ -9,7 +9,7 @@ your work is important!
     `UrbanMapper` is actively evolving. Expect changes, and if you hit a snag, open a GitHub Issue—we’re here to help!
 
 !!! tip "New Contributors"
-    Check out the [GitHub Issues](https://github.com/VIDA-NYU/UrbanMapper/issues) for good first tasks or reach out for
+    Check out the [GitHub Issues](https://github.com/simonprovost/UrbanMapper-Community/issues) for good first tasks or reach out for
     guidance!
 
 ---
@@ -54,7 +54,7 @@ your work is important!
 
 ### Clone the Repo
    ```bash
-   git clone git@github.com:VIDA-NYU/UrbanMapper.git
+   git clone git@github.com:simonprovost/UrbanMapper-Community.git
    cd UrbanMapper
    ```
 

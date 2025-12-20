@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/static/v1?label=RUFF&message=compliant&color=9C27B0&style=for-the-badge&logo=RUFF&logoColor=white" alt="RUFF compliant">
       <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
       <img src="https://img.shields.io/static/v1?label=Python&message=3.10%2B&color=3776AB&style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
-      <img src="https://img.shields.io/github/actions/workflow/status/VIDA-NYU/UrbanMapper/compile.yaml?style=for-the-badge&label=Compilation&logo=githubactions&logoColor=white" alt="Compilation Status">
+      <img src="https://img.shields.io/github/actions/workflow/status/simonprovost/UrbanMapper-Community/compile.yaml?style=for-the-badge&label=Compilation&logo=githubactions&logoColor=white" alt="Compilation Status">
    </p>
 </div>
 
@@ -20,7 +20,7 @@ below.
 
 Please report security vulnerabilities by filling out the following template:
 
-- **PROJECT**: A URL to the project's repository (e.g., `https://github.com/VIDA-NYU/UrbanMapper`)
+- **PROJECT**: A URL to the project's repository (e.g., `https://github.com/simonprovost/UrbanMapper-Community`)
 - **PUBLIC**: Please let us know if this vulnerability has been made or discussed publicly already, and if so, please
   let us know where.
 - **DESCRIPTION**: Please provide a precise description of the security vulnerability you have found with as much

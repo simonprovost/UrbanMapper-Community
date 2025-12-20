@@ -418,7 +418,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             **settings: Keyword arguments for document settings. Common settings include:
@@ -456,7 +456,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             url (str): The URL of the raster tiles.
@@ -502,7 +502,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             url (str): The URL of the image.
@@ -552,7 +552,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             feature (str): The feature to visualise in the heatmap.
@@ -608,7 +608,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             url (str): The URL of the hillshade data.
@@ -658,7 +658,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             url (str): The URL of the TIFF file.
@@ -717,7 +717,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             layer_id (str): The ID of the layer to apply the filter to.
@@ -782,7 +782,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Examples:
             >>> # Build the map after configuring all components
@@ -947,7 +947,7 @@ class JupyterGisMixin:
 
             [JGIS Doc](https://jupytergis.readthedocs.io/en/latest/)
 
-            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/VIDA-NYU/UrbanMapper/issues){ .md-button }
+            [Open An Issue! :fontawesome-brands-square-github:](https://github.com/simonprovost/UrbanMapper-Community/issues){ .md-button }
 
         Args:
             filepath (str): The path where the JGIS file should be saved.

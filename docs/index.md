@@ -8,7 +8,7 @@
       <img src="https://img.shields.io/static/v1?label=RUFF&message=compliant&color=9C27B0&style=for-the-badge&logo=RUFF&logoColor=white" alt="RUFF compliant">
       <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
       <img src="https://img.shields.io/static/v1?label=Python&message=3.10%2B&color=3776AB&style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
-      <img src="https://img.shields.io/github/actions/workflow/status/VIDA-NYU/UrbanMapper/compile.yaml?style=for-the-badge&label=Compilation&logo=githubactions&logoColor=white" alt="Compilation Status">
+      <img src="https://img.shields.io/github/actions/workflow/status/simonprovost/UrbanMapper-Community/compile.yaml?style=for-the-badge&label=Compilation&logo=githubactions&logoColor=white" alt="Compilation Status">
    </p>
 </div>
 
@@ -45,6 +45,17 @@ See a trailer-style video below to get a quick overview of `UrbanMapper` and its
 
 ---
 
+## Community Fork & Maintenance
+
+UrbanMapper-Community is maintained by **Simon Provost**.
+
+We are thankful to **New York University** for the offer to have designed and developed the first bricks behind
+`UrbanMapper`. Following difficulties in seeing the first UrbanMapper repository's OSS-driven atmosphere (questions
+left unanswered, roadmap not public, and similar concerns), we've decided to open a community fork. This repository is
+intended to be the open-code home for UrbanMapper until the community fork can be fully open-source again.
+
+---
+
 ## `Urban Layers` Currently Supported
 
 `UrbanMapper` currently supports the following `urban layers`:
@@ -61,7 +72,7 @@ See a trailer-style video below to get a quick overview of `UrbanMapper` and its
 - [ ] **Subway/Tube** – Planned support for loading subway/tube networks.
 
 More `urban layers` will be added in the future.
-Suggestions? Open an issue or pull request on our [GitHub repository](https://github.com/VIDA-NYU/UrbanMapper/issues).
+Suggestions? Open an issue or pull request on our [GitHub repository](https://github.com/simonprovost/UrbanMapper-Community/issues).
 
 ___
 

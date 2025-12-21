@@ -130,7 +130,7 @@
         color: #252121;
         letter-spacing: -0.025em;
 
-        box-shadow: inset 0 -0.5em 0 #fff5e9;
+        box-shadow: inset 0 -0.5em 0 rgb(255, 150, 26);
     }
 
     .homepage {
@@ -445,6 +445,194 @@
         color: #374151;
     }
 
+    .podcast-section {
+        margin: 0.5rem auto 3rem;
+        max-width: 1100px;
+        text-align: center;
+    }
+
+    .podcast-heading {
+        font-size: clamp(1.75rem, 2.8vw, 2.5rem);
+        margin-bottom: 0.35rem;
+    }
+
+    .podcast-subtitle {
+        color: #5b5b5b;
+        margin-bottom: 1.25rem;
+        font-weight: 500;
+    }
+
+    .podcast-inline {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+    .podcast-bubbles {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .podcast-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        position: relative;
+    }
+
+    .podcast-spotlight {
+        display: none;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.6rem 1.15rem;
+        border-radius: 999px;
+        background: radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.35)),
+        linear-gradient(135deg, rgba(255, 203, 210, 0.7), rgba(128, 161, 255, 0.65));
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+        backdrop-filter: blur(18px) saturate(150%);
+        -webkit-backdrop-filter: blur(18px) saturate(150%);
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        position: relative;
+        overflow: hidden;
+        min-width: 360px;
+    }
+
+    .podcast-item.active .podcast-spotlight {
+        display: inline-flex;
+        animation: slide-in 0.4s ease;
+    }
+
+    .podcast-spotlight::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        border-radius: inherit;
+        background: linear-gradient(120deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+        pointer-events: none;
+        mix-blend-mode: screen;
+    }
+
+    .podcast-flag {
+        font-size: 1.9rem;
+        filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
+        flex-shrink: 0;
+    }
+
+    .podcast-controls {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+    }
+
+    .podcast-audio {
+        max-width: 260px;
+        min-width: 220px;
+        height: 36px;
+        accent-color: #252121;
+        border-radius: 999px;
+        background: transparent;
+    }
+
+    .podcast-audio::-webkit-media-controls-panel {
+        background: transparent;
+    }
+
+    .podcast-audio.playing::-webkit-media-controls-play-button {
+        filter: drop-shadow(0 0 0.35rem rgba(0, 0, 0, 0.25));
+    }
+
+    .podcast-bubble {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        border: none;
+        background: radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)),
+        linear-gradient(135deg, rgba(255, 203, 210, 0.8), rgba(128, 161, 255, 0.75));
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(14px) saturate(150%);
+        -webkit-backdrop-filter: blur(14px) saturate(150%);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease, width 0.25s ease, height 0.25s ease;
+        opacity: 0.95;
+        position: relative;
+    }
+
+    .podcast-bubble .bubble-flag {
+        font-size: 1.5rem;
+        pointer-events: none;
+    }
+
+    .podcast-item.active .podcast-bubble {
+        transform: scale(0.85);
+        box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+        opacity: 0;
+        width: 0;
+        height: 0;
+        pointer-events: none;
+    }
+
+    .podcast-bubble:focus-visible {
+        outline: 2px solid #252121;
+        outline-offset: 3px;
+    }
+
+    .podcast-bubbles.intro .podcast-bubble { animation: bubble-slide 0.9s ease forwards; }
+    .podcast-bubbles.intro .podcast-item.active .podcast-bubble { animation: bubble-expand 0.9s ease forwards; }
+
+    @keyframes bubble-slide {
+        0% { opacity: 0; transform: translateY(-24px) scale(0.9); }
+        100% { opacity: 0.95; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes bubble-expand {
+        0% { opacity: 0; transform: translateY(-24px) scale(0.9); }
+        100% { opacity: 1; transform: translateY(0) scale(1.12); }
+    }
+
+    @keyframes slide-in {
+        0% { opacity: 0; transform: translateX(-12px); }
+        100% { opacity: 1; transform: translateX(0); }
+    }
+
+    @media (max-width: 860px) {
+        .podcast-inline {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .podcast-item {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .podcast-spotlight {
+            justify-content: center;
+        }
+
+        .podcast-controls {
+            justify-content: center;
+        }
+    }
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(8px);
+        transition: max-height 0.55s ease, opacity 0.45s ease, transform 0.45s ease;
+        display: grid;
+        gap: 0.65rem;
+        text-align: left;
+    }
+
 </style>
 
 <body class="homepage">
@@ -500,6 +688,125 @@
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const items = Array.from(document.querySelectorAll('.podcast-item'));
+        const bubbleTray = document.querySelector('.podcast-bubbles');
+
+        const resetOthers = (activeItem) => {
+            items.forEach(item => {
+                const audioEl = item.querySelector('.podcast-audio');
+                const isActive = item === activeItem;
+                item.classList.toggle('active', isActive);
+                if (!isActive && audioEl) {
+                    audioEl.pause();
+                    audioEl.currentTime = 0;
+                }
+            });
+        };
+
+        items.forEach((item, index) => {
+            const bubble = item.querySelector('.podcast-bubble');
+            const audioEl = item.querySelector('.podcast-audio');
+
+            if (!bubble.style.getPropertyValue('--delay')) {
+                bubble.style.setProperty('--delay', (index * 0.12).toFixed(2));
+            }
+
+            if (audioEl) {
+                audioEl.playbackRate = 1.25;
+                audioEl.addEventListener('play', () => audioEl.classList.add('playing'));
+                audioEl.addEventListener('pause', () => audioEl.classList.remove('playing'));
+            }
+
+            bubble.addEventListener('click', () => {
+                resetOthers(item);
+                if (audioEl) {
+                    audioEl.pause();
+                    audioEl.currentTime = 0;
+                }
+            });
+        });
+
+        if (items.length) {
+            resetOthers(items[0]);
+        }
+
+        if (bubbleTray) {
+            setTimeout(() => bubbleTray.classList.remove('intro'), 1200);
+        }
+    });
+</script>
+
+<div class="podcast-section">
+  <h2 class="podcast-heading title-klack-style"><mark>UM</mark> Podcast <mark>Explained</mark></h2>
+  <p class="podcast-subtitle">Generated with NotebookLM</p>
+
+  <div class="podcast-inline">
+    <div class="bubble-bar podcast-bubbles intro" role="list">
+      <div class="podcast-item active" data-language="English" data-flag="🇬🇧">
+        <button class="podcast-bubble" type="button" aria-label="English">
+          <span class="bubble-flag" aria-hidden="true">🇬🇧</span>
+        </button>
+        <div class="podcast-spotlight" aria-live="polite">
+          <span class="podcast-flag" aria-hidden="true">🇬🇧</span>
+          <div class="podcast-controls">
+            <audio class="podcast-audio" controls aria-label="UM Podcast — English">
+              <source src="assets/audio/um_en.m4a" type="audio/mp4">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="podcast-item" data-language="Français" data-flag="🇫🇷">
+        <button class="podcast-bubble" type="button" aria-label="Français">
+          <span class="bubble-flag" aria-hidden="true">🇫🇷</span>
+        </button>
+        <div class="podcast-spotlight" aria-live="polite">
+          <span class="podcast-flag" aria-hidden="true">🇫🇷</span>
+          <div class="podcast-controls">
+            <audio class="podcast-audio" controls aria-label="UM Podcast — Français">
+              <source src="assets/audio/um_fr.m4a" type="audio/mp4">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="podcast-item" data-language="Español" data-flag="🇪🇸">
+        <button class="podcast-bubble" type="button" aria-label="Español">
+          <span class="bubble-flag" aria-hidden="true">🇪🇸</span>
+        </button>
+        <div class="podcast-spotlight" aria-live="polite">
+          <span class="podcast-flag" aria-hidden="true">🇪🇸</span>
+          <div class="podcast-controls">
+            <audio class="podcast-audio" controls aria-label="UM Podcast — Español">
+              <source src="assets/audio/um_sp.m4a" type="audio/mp4">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="podcast-item" data-language="繁體中文" data-flag="🇨🇳">
+        <button class="podcast-bubble" type="button" aria-label="繁體中文">
+          <span class="bubble-flag" aria-hidden="true">🇨🇳</span>
+        </button>
+        <div class="podcast-spotlight" aria-live="polite">
+          <span class="podcast-flag" aria-hidden="true">🇨🇳</span>
+          <div class="podcast-controls">
+            <audio class="podcast-audio" controls aria-label="UM Podcast — 繁體中文">
+              <source src="assets/audio/um_chtrad.m4a" type="audio/mp4">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="feature-grid">
     <div class="grid-item">

@@ -1,6 +1,6 @@
 :root  > * {
-  --md-primary-fg-color:        #0675c5;
-  --md-primary-fg-color--dark: #0560a2;
+  --md-primary-fg-color:        #fff5e9;
+  --md-primary-fg-color--dark: #fff5e9;
 }
 
 @media (min-width: 1024px) {

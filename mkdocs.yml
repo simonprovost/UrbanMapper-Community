@@ -1,4 +1,4 @@
-site_name: UrbanMapper
+site_name: UrbanMapper Community
 repo_name: simonprovost/UrbanMapper-Community
 
 repo_url: https://github.com/simonprovost/UrbanMapper-Community
@@ -8,30 +8,16 @@ site_url: https://vida-nyu.github.io/UrbanMapper/
 site_author: Simon Provost
 copyright: Maintained by Simon Provost, © Simon Provost 2025-present
 site_description: >
-  🗺️ Spatial Join & Enrich any urban layer given any external urban dataset of interest, streamline your urban analysis 
-  with Scikit-Learn-Like pipelines, and share your insights with the urban research community!
+  🗺️ UrbanMapper Community: Spatially join and enrich urban layers with Scikit-Learn-like pipelines, and share insights
+  with the urban research community.
 
 remote_branch: main
 
 theme:
   name: material
+  custom_dir: docs/theme/overrides
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+    - scheme: slate
   font:
     text: Roboto
     code: Roboto Mono
@@ -149,7 +135,8 @@ extra:
         link: https://github.com/simonprovost
 
 extra_css:
-  - private/custom_css/extra.css
+  - stylesheets/extra.css
+  - stylesheets/landing.css
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -160,10 +147,11 @@ extra_javascript:
 nav:
   - Home: index.md
   - Getting Started:
+    - Overview: getting-started/overview.md
     - Installation: getting-started/installation.md
     - Getting Started Step-By-Step: getting-started/quick-start_step_by_step.md
     - Getting Started W/ Pipeline: getting-started/quick-start_pipeline.md
-  - Examples:
+  - Interactive Examples:
       - Overview: EXAMPLES.md
       - Per-Module Examples:
           - "Loader": copy_of_examples/1-Per-Module/1-loader.ipynb
@@ -203,21 +191,21 @@ nav:
               - One Pipeline: copy_of_examples/4-External-Libraries-Usages/3-jupyter_gis_multi_pipeline/1-one_pipeline.ipynb
               - Two Pipeline: copy_of_examples/4-External-Libraries-Usages/3-jupyter_gis_multi_pipeline/2-two_pipeline.ipynb
               - Three Pipeline: copy_of_examples/4-External-Libraries-Usages/3-jupyter_gis_multi_pipeline/3-three_pipeline.ipynb
-  - API Reference:
-    - "API Reference": api/index.md
-    - Core Modules:
-        - Loaders: api/loaders.md
-        - Urban Layers: api/urban_layers.md
-        - Imputers: api/imputers.md
-        - Filters: api/filters.md
-        - Enrichers: api/enrichers.md
-        - Visualisers: api/visualisers.md
-        - Pipelines: api/pipelines.md
-    - Optional Modules:
-        - Pipeline Generators: api/pipeline_generators.md
-        - Auctus Mixins: api/auctus.md
-        - Interactive Table VIS: api/interactive_table_vis.md
-        - JupyterGIS Mixins: api/jupyter_gis.md
-  - Contributing: ./CONTRIBUTING_DEV.md
-  - Releases: https://github.com/simonprovost/UrbanMapper-Community/releases
-  - "Branding & UX": ./BRANDING.md
+  - API:
+      - Overview: api/index.md
+      - Loaders: api/loaders.md
+      - Urban Layers: api/urban_layers.md
+      - Imputers: api/imputers.md
+      - Filters: api/filters.md
+      - Enrichers: api/enrichers.md
+      - Visualisers: api/visualisers.md
+      - Pipelines: api/pipelines.md
+      - Pipeline Generators: api/pipeline_generators.md
+      - Auctus Mixins: api/auctus.md
+      - Interactive Table VIS: api/interactive_table_vis.md
+      - JupyterGIS Mixins: api/jupyter_gis.md
+  - Community Hub:
+      - Overview: community-hub.md
+      - Our Story: community-story.md
+      - Contributing: CONTRIBUTING_DEV.md
+      - Branding & UX: BRANDING.md

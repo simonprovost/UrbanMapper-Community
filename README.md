@@ -42,8 +42,6 @@ model, enabling others to run or extend the same workflow without rewriting code
 
 **UrbanMapper Community**: please jump to the #Acknowledgments section below to learn more about the history of the project.
 
----
-
 ## Installation
 
 Install `UrbanMapper-Community`:
@@ -59,8 +57,6 @@ Then launch Jupyter Lab to explore `UrbanMapper`:
 uv run jupyter lab
 ```
 
----
-
 # Getting Started with UrbanMapper
 
 We highly recommend exploring the [UrbanMapper Documentation](https://urbanmapper.readthedocs.io/en/latest/), starting
@@ -69,8 +65,6 @@ section.
 
 Once you have grasped the basics, we recommend exploring the [Interactive Examples](https://urbanmapper.readthedocs.io/en/latest/examples/)
 or running yourself the notebooks through the `examples/` directory.
-
----
 
 ## Licence
 
@@ -87,4 +81,4 @@ focus on transparent collaboration, reproducible workflows, and open participati
 This was unfortunately hardly the case through the first `UM` repository, questions were hardly answered, issues left,
 and contributions difficult to make through.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/New_York_University_Logo.png" width="200px" alt="New York University logo">
+<img src="https://vectorseek.com/wp-content/uploads/2023/08/NYU-Logo-Vector.svg-.png" width="200px" alt="New York University logo">

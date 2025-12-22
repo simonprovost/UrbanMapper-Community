@@ -7,6 +7,13 @@ on:
 
 jobs:
   test:
+    if: >-
+      ${{
+        (github.event_name == 'push' && !contains(github.event.head_commit.message, '[no-tests]')) ||
+        (github.event_name == 'pull_request' &&
+          !contains(github.event.pull_request.title, '[no-tests]') &&
+          !contains(github.event.pull_request.body || '', '[no-tests]'))
+      }}
     runs-on: ubuntu-latest
     strategy:
       matrix:

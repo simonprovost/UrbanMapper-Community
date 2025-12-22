@@ -424,6 +424,11 @@ First and foremost, thank you for your contribution! To generate documentation, 
    uv run mkdocs serve
    ```
 
+   To skip compiling notebooks (faster local preview), use:
+   ```bash
+   uv run mkdocs serve -f mkdocs.fast.yml
+   ```
+
 4. **Open in Browser**:
    [Localhost :fontawesome-solid-paper-plane:](http://127.0.0.1:8000){ .md-button }
 

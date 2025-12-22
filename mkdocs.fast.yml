@@ -1,0 +1,57 @@
+INHERIT: mkdocs.yml
+
+plugins:
+  - search
+  - document-dates:
+      position: bottom
+      type: date
+      locale: en
+      date_format: '%Y-%m-%d'
+      time_format: '%H:%M:%S'
+      exclude:
+        - index.md
+        - copy_of_examples/*
+      show_author: true
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            heading_level: 3
+            show_root_heading: true
+            show_category_heading: true
+            show_root_full_path: false
+  - autorefs
+  - privacy
+  - social
+  - minify
+  - mermaid2
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - Installation: getting-started/installation.md
+      - Getting Started Step-By-Step: getting-started/quick-start_step_by_step.md
+      - Getting Started W/ Pipeline: getting-started/quick-start_pipeline.md
+  - Interactive Examples:
+      - Overview: EXAMPLES.md
+  - API:
+      - Overview: api/index.md
+      - Loaders: api/loaders.md
+      - Urban Layers: api/urban_layers.md
+      - Imputers: api/imputers.md
+      - Filters: api/filters.md
+      - Enrichers: api/enrichers.md
+      - Visualisers: api/visualisers.md
+      - Pipelines: api/pipelines.md
+      - Pipeline Generators: api/pipeline_generators.md
+      - Auctus Mixins: api/auctus.md
+      - Interactive Table VIS: api/interactive_table_vis.md
+      - JupyterGIS Mixins: api/jupyter_gis.md
+  - Community Hub:
+      - Overview: community-hub.md
+      - Our Story: community-story.md
+      - Contributing: CONTRIBUTING_DEV.md
+      - Branding & UX: BRANDING.md

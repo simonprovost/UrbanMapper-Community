@@ -18,6 +18,13 @@ on:
 
 jobs:
   build:
+    if: >-
+      ${{
+        (github.event_name == 'push' && !contains(github.event.head_commit.message, '[no-build]')) ||
+        (github.event_name == 'pull_request' &&
+          !contains(github.event.pull_request.title, '[no-build]') &&
+          !contains(github.event.pull_request.body || '', '[no-build]'))
+      }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

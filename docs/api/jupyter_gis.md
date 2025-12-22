@@ -3,8 +3,8 @@
 !!! note "Optional module"
     Install the `jupytergis_mixins` extra to unlock these collaborative GIS tools:
 
-    - `pip install urban-mapper[jupytergis_mixins]`
-    - `uv add urban-mapper --group jupytergis_mixins`
+    - `pip install urban-mapper-community[jupytergis_mixins]`
+    - `uv add urban-mapper-community --group jupytergis_mixins`
 
 !!! tip "What is Jupyter GIS Mixin?"
     The `Jupyter GIS` mixin is responsible to deliver a way to explore your UrbanMapper's pipeline in a more

@@ -12,7 +12,7 @@ We recommend you to install `UrbanMapper` in a virtual environment to keep thing
 
     ```bash
     # Install the package from PyPI
-    uv add urban-mapper
+    uv add urban-mapper-community
    
     # Launch Jupyter Lab to explore `UrbanMapper` (faster than running Jupyter without uv)
     uv run --with jupyter jupyter lab
@@ -37,7 +37,7 @@ We recommend you to install `UrbanMapper` in a virtual environment to keep thing
     conda activate umenv
 
     # Install the package from PyPI
-    pip install urban-mapper
+    pip install urban-mapper-community
 
     # Launch Jupyter Lab to explore `UrbanMapper`
     jupyter lab
@@ -51,7 +51,7 @@ We recommend you to install `UrbanMapper` in a virtual environment to keep thing
 
 The most straightforward way to install `UrbanMapper` is with pip (works in any environment):
  ```bash
- pip install urban-mapper
+ pip install urban-mapper-community
  ```
 Launch Jupyter Lab to explore `UrbanMapper`:
 ```bash
@@ -66,43 +66,43 @@ Install optional capabilities on demand:
 #### Notebook tooling
 
 ```bash
-pip install urban-mapper[notebook]
-uv add urban-mapper --group notebook
+pip install urban-mapper-community[notebook]
+uv add urban-mapper-community --group notebook
 ```
 
 #### Interactive table visualisations
 
 ```bash
-pip install urban-mapper[interactive_table_vis]
-uv add urban-mapper --group interactive_table_vis
+pip install urban-mapper-community[interactive_table_vis]
+uv add urban-mapper-community --group interactive_table_vis
 ```
 
 #### Auctus mixins
 
 ```bash
-pip install urban-mapper[auctus_mixins]
-uv add urban-mapper --group auctus_mixins
+pip install urban-mapper-community[auctus_mixins]
+uv add urban-mapper-community --group auctus_mixins
 ```
 
 #### Pipeline generators
 
 ```bash
-pip install urban-mapper[pipeline_generators]
-uv add urban-mapper --group pipeline_generators
+pip install urban-mapper-community[pipeline_generators]
+uv add urban-mapper-community --group pipeline_generators
 ```
 
 #### JupyterGIS mixins
 
 ```bash
-pip install urban-mapper[jupytergis_mixins]
-uv add urban-mapper --group jupytergis_mixins
+pip install urban-mapper-community[jupytergis_mixins]
+uv add urban-mapper-community --group jupytergis_mixins
 ```
 
 #### Everything at once
 
 ```bash
-pip install urban-mapper[full]
-uv add urban-mapper --group full
+pip install urban-mapper-community[full]
+uv add urban-mapper-community --group full
 ```
 
 ## ➡️ From Source (Developer)

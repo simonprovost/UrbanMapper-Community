@@ -3,7 +3,7 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [project]
-name = "urban-mapper"
+name = "urban-mapper-community"
 description = "🗺️ Spatial Join & Enrich any urban layer given any external urban dataset of interest, streamline your urban analysis with Scikit-Learn-Like pipelines, and share your insights with the urban research community!"
 authors = [
      {name = "Simon Provost", email = "simon.gilbert.provost@gmail.com"}, # Maintainer

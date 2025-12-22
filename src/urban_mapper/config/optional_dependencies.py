@@ -13,8 +13,8 @@ class OptionalDependencyInfo:
     description: str
 
     def missing_message(self) -> str:
-        pip_command = f"pip install urban-mapper[{self.extra}]"
-        uv_command = f"uv add urban-mapper --group {self.extra}"
+        pip_command = f"pip install urban-mapper-community[{self.extra}]"
+        uv_command = f"uv add urban-mapper-community --group {self.extra}"
         return (
             f"{self.description} Install them with `{pip_command}` or `{uv_command}`."
         )

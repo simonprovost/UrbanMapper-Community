@@ -20,10 +20,6 @@
 
 ___
 
-> [!IMPORTANT]
-> 🫡 `UrbanMapper Community` is a community-led continuation of the original `UrbanMapper` project from New York University.
-> - 📹 `UrbanMapper` got its first Model Context Protocol (MCP) 👉https://www.youtube.com/watch?v=6gLkmKevj8Y 👈
-
 ## UrbanMapper & Urban Mapper Community, In a Nutshell
 
 `UrbanMapper` lets you link your data to spatial features—matching, for example, traffic events to streets—to enrich
@@ -40,7 +36,7 @@ a [Scikit-Learn](https://scikit-learn.org/stable/)–style pipeline called the `
 As your data evolves or team members want new analyses, you can share and update the `Urban Pipeline` like a trained
 model, enabling others to run or extend the same workflow without rewriting code.
 
-**UrbanMapper Community**: please jump to the #Acknowledgments section below to learn more about the history of the project.
+**About the community-fork**: please scroll-down to the #Acknowledgments section below to learn more about the history of the project.
 
 ## Installation
 
@@ -70,7 +66,7 @@ or running yourself the notebooks through the `examples/` directory.
 
 `UrbanMapper` is released under the [MIT Licence](./LICENCE).
 
-## Acknowledgments
+## Acknowledgments — Community-Led Continuation
 
 We are grateful to **New York University** for supporting the early design and development of `UrbanMapper`, and for
 providing an encouraging research environment—especially through the **OSCUR** funding support (https://oscur.org).

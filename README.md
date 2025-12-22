@@ -15,7 +15,7 @@
 
 
 
-![UrbanMapper Cover](https://i.imgur.com/hZ2XkrN.png)
+![UrbanMapper Cover](https://i.imgur.com/axoY0qm.jpeg)
 
 
 ___

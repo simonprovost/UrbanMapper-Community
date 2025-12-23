@@ -95,11 +95,14 @@ plugins:
       execute: true
       execute_ignore:
         - "copy_of_examples/1-Per-Module/1-loader.ipynb"
+        - "copy_of_examples/1-Per-Module/2-urban_layer.ipynb"
         - "copy_of_examples/1-Per-Module/3-imputer.ipynb"
         - "copy_of_examples/1-Per-Module/4-filter.ipynb"
         - "copy_of_examples/1-Per-Module/5-enricher.ipynb"
         - "copy_of_examples/1-Per-Module/6-visualiser.ipynb"
+        - "copy_of_examples/1-Per-Module/7-urban_pipeline.ipynb"
         - "copy_of_examples/1-Per-Module/8-pipeline_generator.ipynb"
+        - "copy_of_examples/2-End-to-End/1-step_by_step.ipynb"
         - "copy_of_examples/3-Case-Studies/1-Downtown-BK-Collisions/1-Downtown_BK_Collisions_StepByStep.ipynb"
         - "copy_of_examples/3-Case-Studies/1-Downtown-BK-Collisions/2-Downtown_BK_Collisions_Pipeline.ipynb"
         - "copy_of_examples/3-Case-Studies/1-Downtown-BK-Collisions/3-Downtown_BK_Collisions_Advanced_Pipeline.ipynb"
@@ -158,7 +161,7 @@ nav:
     - Installation: getting-started/installation.md
     - Getting Started Step-By-Step: getting-started/quick-start_step_by_step.md
     - Getting Started W/ Pipeline: getting-started/quick-start_pipeline.md
-  - Interactive Examples:
+  - Examples:
       - Overview: EXAMPLES.md
       - Per-Module Examples:
           - "Loader": copy_of_examples/1-Per-Module/1-loader.ipynb

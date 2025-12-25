@@ -29,4 +29,12 @@ of urban computing together.
 
     [:octicons-arrow-right-24: Read the story](community-story.md)
 
+-   :material-compare-horizontal:{ .lg .middle } **Official vs Community**
+
+    ---
+
+    Track how the Community build diverges from upstream Urban Mapper across the pipeline.
+
+    [:octicons-arrow-right-24: Review differences](community-differences.md)
+
 </div>

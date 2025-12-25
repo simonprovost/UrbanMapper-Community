@@ -216,6 +216,7 @@ nav:
       - JupyterGIS Mixins: api/jupyter_gis.md
   - Community Hub:
       - Overview: community-hub.md
+      - Official vs Community: community-differences.md
       - Our Story: community-story.md
       - Contributing: CONTRIBUTING_DEV.md
       - Branding & UX: BRANDING.md

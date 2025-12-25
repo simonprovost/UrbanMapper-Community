@@ -15,4 +15,4 @@
 
 # Contributing to `UrbanMapper`
 
-For details on contributing to the library, please follow up to the [contributing guidelines directly on the documentation](https://urbanmapper.readthedocs.io/en/latest/CONTRIBUTING/).
+For details on contributing to the library, please follow up to the [contributing guidelines directly on the documentation](https://urbanmapper-community.readthedocs.io/en/latest/CONTRIBUTING/).

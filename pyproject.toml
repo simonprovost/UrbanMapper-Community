@@ -95,7 +95,7 @@ full = [
 
 [project.urls]
 Homepage = "https://github.com/simonprovost/UrbanMapper-Community"
-Documentation = "https://urbanmapper.readthedocs.io/en/latest/"
+Documentation = "https://urbanmapper-community.readthedocs.io/en/latest/"
 Changelog = "https://github.com/simonprovost/UrbanMapper-Community/blob/main/CHANGELOG.md"
 Repository = "https://github.com/simonprovost/UrbanMapper-Community"
 Issues = "https://github.com/simonprovost/UrbanMapper-Community/issues"

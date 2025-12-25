@@ -55,11 +55,11 @@ uv run jupyter lab
 
 # Getting Started with UrbanMapper
 
-We highly recommend exploring the [UrbanMapper Documentation](https://urbanmapper.readthedocs.io/en/latest/), starting
-with the homepage general information and then the [Getting Started](https://urbanmapper.readthedocs.io/en/latest/getting-started/)
+We highly recommend exploring the [UrbanMapper Documentation](https://urbanmapper-community.readthedocs.io/en/latest/), starting
+with the homepage general information and then the [Getting Started](https://urbanmapper-community.readthedocs.io/en/latest/getting-started/)
 section.
 
-Once you have grasped the basics, we recommend exploring the [Interactive Examples](https://urbanmapper.readthedocs.io/en/latest/examples/)
+Once you have grasped the basics, we recommend exploring the [Interactive Examples](https://urbanmapper-community.readthedocs.io/en/latest/examples/)
 or running yourself the notebooks through the `examples/` directory.
 
 ## Licence

@@ -74,7 +74,6 @@ providing an encouraging research environment—especially through the **OSCUR**
 **UrbanMapper Community** builds on those initial foundations and continues the work as a community-led effort, with a
 focus on transparent collaboration, reproducible workflows, and open participation as well as public roadmap.
 
-This was unfortunately hardly the case through the first `UM` repository, questions were hardly answered, issues left,
-and contributions difficult to make through.
+Unfortunately, because the off. OSS initiative is primarily a research project, the parties' **interests** and **time** did not align, motivating the exploration of a community edition. This in no way implies or targets the brillant institution to which we are eternally grateful for the experience, nor the team members (PhDs,PostDocs,etc.) who helped every single line of code become stronger every day.
 
 <img src="https://vectorseek.com/wp-content/uploads/2023/08/NYU-Logo-Vector.svg-.png" width="200px" alt="New York University logo">
